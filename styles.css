@@ -1,0 +1,73 @@
+* {
+  list-style: none;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color: rgb(65, 65, 65);
+  border: 1px solid black;
+}
+
+nav {
+  height: min-content;
+  padding: 1.4rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.introduction-text {
+  padding-right: 40px;
+}
+
+.experience {
+  margin: 30px;
+}
+
+.my-work {
+  margin: 30px;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.footer > p {
+  font-size: 1rem;
+}
+
+.git-img {
+  height: 100px;
+  margin: 10px;
+}
+
+.footer-git-img {
+  height: 20px;
+  padding-top: 4px;
+}
