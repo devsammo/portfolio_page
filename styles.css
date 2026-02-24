@@ -5,23 +5,34 @@
 }
 
 :root {
-  --bg-colour: ;
-  --font-colour: ;
+  --font-colour: #2C4251;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  color: var(--font-colour);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
   display: flex;
-  justify-content: space-between;
-  padding: 0.2rem;
+  padding: 2vh 16vh;
+}
+
+li > a {
+  text-decoration: none;
+  padding-right: 1rem;
+  color: var(--font-colour);
+}
+
+a > img {
+  padding-right: 0.4rem;
 }
 
 h1 {
   font-size: 5rem;
+  padding-bottom: 1rem;
 }
 
 h2 {
@@ -37,7 +48,7 @@ p {
 }
 
 .introduction, .experience, .my-work {
-  padding: 10% 10%;
+  padding: 16vh 16vh;
 }
 
 .introduction {
@@ -58,16 +69,12 @@ p {
   padding: 20px 10% 12px;
   display: grid;
   grid-template-columns: auto auto;
+  border-top: 1px solid var(--font-colour);
 }
 
 .footer > p {
   font-size: 0.6rem;
   margin-bottom: 0.2rem;
-}
-
-.git-img {
-  height: 100px;
-  margin: 10px;
 }
 
 .footer-img {
@@ -81,4 +88,9 @@ p {
 
 .footer-text {
   font-size: 0.9rem;
+}
+
+.icon-div {
+  display: flex;
+  padding: 0;
 }
